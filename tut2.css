@@ -1,0 +1,19 @@
+h1
+{
+    color:blue;
+}
+p
+{
+    text-align: center;
+    color:red;
+}
+/*body
+{
+    background-color: pink;
+}*/
+.my-container
+{
+    height: 100hx;
+    width: 200hx;
+    background-color: pink;
+}
