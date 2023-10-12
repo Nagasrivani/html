@@ -1,0 +1,21 @@
+.my-container
+{
+    background-color: blueviolet;
+    text-align: center;
+    color:white;
+}
+.mytable
+{
+    margin: 0 auto;
+    text-align: center;
+}
+h1
+{
+    font-style: normal;
+    color:blanchedalmond;
+    font-size: 25pt;
+}
+table
+{
+    border: 2px solid navy;
+}
