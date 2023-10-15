@@ -1,0 +1,19 @@
+.my-container
+{
+    font-size:16px;
+    text-align:center;
+    color:pink;
+}
+h1
+{
+    text-align:left;
+    color:cyan !important;
+}
+p
+{
+    color:blueviolet;
+}
+.para
+{
+    color:bisque;
+}
