@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body
+{
+    text-align:center;
+}
+.heading
+{
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    font-size:50px;
+    font-weight:bolder;
+    font-style:italic;
+    text-transform:lowercase;
+    text-decoration:overline;/*underline*/
+    line-height:1.5;
+    letter-spacing:2px;
+    color:blue;
+}
+.para
+{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size:50px;
+    font-weight:normal;
+    font-style:oblique;
+    text-transform:capitalize;
+    text-decoration:line-through;
+    line-height:2;
+    letter-spacing:4px;
+    color:red;
+}
