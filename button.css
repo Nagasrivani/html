@@ -1,0 +1,64 @@
+.subscribe-button
+{
+    background-color:red;
+    color:white;
+    border:none;
+    height:30px;
+    width:100px;
+    border-radius: 5px;/*edges*/
+    cursor: pointer;
+    margin-right:8px;/*distance btw 2 buttons right side margin*/
+    transition:opacity 0.15s;/* it sets opacity time to 0.15s*/
+}
+.subscribe-button:hover/* when the cursor placed on the subscribe button the bgcolor is green*/
+{
+    /*background-color: green;*/
+    opacity: 0.1;
+}
+.subscribe-button:active/* when we click the button the bgcolor is blue*/
+{
+    /*background-color: blue;*/
+    opacity: 0.5;/*it will appear as circle*/
+}
+
+.join-button
+{
+    background-color: white;
+    border-color: rgb(52, 152, 235);
+    height:30px;
+    width:50px;
+    border:none;
+    border-style:solid;/*perfect in the border*/
+    border-width:1px;
+    color: rgb(52, 152, 235);/*we should give this compulsory, if not border color and color wont apply*/
+    margin-right:5px;
+    cursor:pointer;
+    transition: background-color 1s;   
+}
+.join-button:hover
+{
+    background-color: violet;
+}
+.join-button:active
+{
+    opacity:0.7;
+}
+.tweet-button
+{
+    background-color: rgb(52, 152, 235);
+    border:none;/*default some black border will there, none means the border will be perfect*/
+    border-radius:5px;
+    color:white;/*sets the text color to white*/
+    height:30px;
+    width:50px;
+    /*box-shadow:5px 5px 10px rgba(0,0,0,0.6); rgba defines the opacity of bgcolor black how much it should shine. As we decreasing the value the colour shading also decrease*/
+    font-size:20px;/*sets the size of the text to 20px*/
+    font-style:italic;/*sets the text to italic*/
+    font-weight: bolder;/*sets the text to bold*/
+    letter-spacing: 2px;/* space between the letters*/
+    transition:box-shadow 0.15s;/*for 0.15s, the box shadow will apply which is defined in hover*/
+}
+.tweet-button:hover
+{
+    box-shadow:5px 5px 10px rgba(0,0,0,0.6);
+}
