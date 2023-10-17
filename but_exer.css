@@ -1,0 +1,115 @@
+.request-button
+{
+    background-color: black;
+    color:white;
+    height:30px;
+    width:100px;
+    border:none;
+    cursor:pointer;
+    transition:opacity 0.15s;
+}
+.request-button:hover
+{
+    opacity:0.8;
+}
+.add-to-cart-button
+{
+    background-color: yellow;
+    border-radius: 12px;
+    cursor: pointer;
+    border:none;
+    height:30px;
+    width:200px;
+}
+.add-to-cart-button:hover
+{
+    opacity:0.8;
+}
+.sign-up-button
+{
+    background-color: green;
+    color:white;
+    border:none;
+    height:35px;
+    width:80px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor:pointer;
+    font-size:15px;
+    transition:box-shadow 0.15s;
+}
+.sign-up-button:hover
+{
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.1);
+}
+.get-started-button
+{
+    background-color:blueviolet;
+    color:white;
+    border:none;
+    border-radius:2px;
+    height:30px;
+    width:100px;
+    cursor:pointer;
+    margin-right:6px;
+    font-weight:bold;
+}
+.get-started-button:hover
+{
+    opacity:0.6;
+}
+.download-button
+{
+    border: none;
+    border-width:1px;
+    border-radius: 4px;
+    height:30px;
+    width:100px;
+    cursor:pointer;
+    font-weight:bold;
+    border-style:solid;
+    border-color: rgb(108, 117, 125);;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    transition:background-color 0.15s;
+}
+.download-button:hover
+{
+    background-color:  rgba(0,0,0,0.3);
+    color:0.15s;
+}
+.apply-button
+{
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    height:40px;
+    width:240px;
+    margin-right: 6px;
+    font-size:15px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background-color 0.15s;
+}
+.apply-button:hover
+{
+    background-color: rgba(49, 49, 232, 0.7);
+}
+.save-button
+{
+    background-color: white;
+    color:blue;
+    border-radius:40px;
+    font-weight:bold;
+    font-size:15px;
+    cursor:pointer;
+    height:30px;
+    width:50px;
+    border-color:rgba(49, 49, 232, 0.7);
+}
+.save-button:hover
+{
+    opacity:0.5;
+    border-width:2px;
+}
