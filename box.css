@@ -1,0 +1,30 @@
+.box
+{
+    border-color:red;
+    border-width:8px;/*All sides*/
+    border-top-width:2px;/*Top side*/
+    border-style:solid;
+    text-align:center;
+
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:30px;
+    padding-left:40px;
+    margin:50px;
+    height:70vh;
+    width:50vw;
+    background-color: lightblue;
+    border-image:"C:\Users\nagas\OneDrive\Pictures\vani childhood photo.jpg" 10 10 round;
+}
+.heading
+{
+    border:2px solid red;
+    display:block; /* is the default*/
+   /* display:none; element is not displayed, and it doesn't occupy any space within the layout*/
+    /*inline-taking up only as much width as necessary*/
+    padding-top:20px;
+    border-radius:20px;
+    border-top-left-radius:5px;
+    visibility: visible;
+   /* visibility: hidden;*/
+}
