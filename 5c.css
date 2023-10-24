@@ -1,0 +1,35 @@
+.para
+{
+    font-family: Verdana;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.pro
+{
+    font-family: Verdana;
+    font-size: 15px;
+    color:gray;
+    margin-top: 5px;
+    margin-bottom:15px;
+}
+.pa
+{
+    font-family: Verdana;
+    font-size: 15px;
+    color:black;
+    margin-top:0;
+    width:300px;
+    margin-bottom: 15px;
+}
+.button
+{
+    font-family: Verdana;
+    background-color: green;
+    color:white;
+    border-radius: 4px;
+    margin-top: 0;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
