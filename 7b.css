@@ -1,0 +1,7 @@
+.cat
+{
+    width:200px;
+    height:200px;
+    object-position:center;/*if left, it shows only left part of the img, if right, it show right part of the img, likewise center*/
+    object-fit: cover;/*which will cover the main part of the image at 200 200*/
+}
