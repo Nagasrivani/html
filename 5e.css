@@ -1,0 +1,39 @@
+p
+{
+    font-family:Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.new
+{
+    color:red;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+.mac
+{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.super
+{
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.from
+{
+    font-size:20px;
+    margin-bottom: 25px;
+}
+.buy
+{
+    font-family: Arial;
+    color:white;
+    background-color: blue;
+    border:none;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
