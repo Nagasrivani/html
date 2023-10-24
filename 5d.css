@@ -1,0 +1,25 @@
+p
+{
+    text-align: center;
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.para
+{
+
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+}
+.apple
+{
+    font-size: 16px; 
+
+}
+.learn
+{
+    color:blue;
+    margin-top: 10px;
+}
