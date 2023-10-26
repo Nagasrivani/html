@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Position</title>
+    <style>
+        .box
+        {
+            height:150px;
+            width:150px;
+            display:inline-block;
+            margin:5px;
+            border:4px solid red;
+        }
+        body
+        {
+            height:30000px;
+            margin:0;/*remove default margin for body*/
+        }
+        .box1
+        {
+            /*position:static;same place, no change and top and left properties have no effect on static elements*/
+            top:34px;
+            left:20px;
+        }
+        .box2
+        {
+            position:relative;/*if we give relative, then only top and left will apply*/
+            top:100px;
+            left:100px;
+            bottom:50px;
+            right:50px;
+        }
+        .box3
+        {
+            position:absolute;/*box3 will overlap on box1(parent element) applying top and left*/
+            top:34px;/*absolute doesn't positioned to static position, so box1 should not be static*/
+            left:20px;
+        }
+        .box4
+        {
+            position:sticky;/*for every position, we hav to give top and left, it will stick in that position applying top and left only when we scroll*/
+            top:34px;
+            left:50px;
+            /*position:fixed;
+            bottom:20px;
+            right:20px;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">Hi</div>
+    <div class="box box2">Hello</div>
+    <div class="box box3">Welcome</div>
+    <div class="box box4">Suscribe</div>
+</body>
+</html>
