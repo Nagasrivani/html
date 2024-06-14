@@ -1,0 +1,147 @@
+.para
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 400px;
+    color:white;
+    font-size: 50px;
+    width:auto;
+    margin-right: auto;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.login:hover
+{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+.login
+{
+    color:blue;
+    border:none;
+    height:50px;
+    width:70px;
+    border-radius: 15px;
+    border-color: aliceblue;
+    border-width: 1px;
+    padding:0 10px;
+    margin-left:auto;
+    cursor:pointer;
+    
+}
+.heading-grid
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width:100%;
+    cursor:pointer;
+}
+.heading-grid:hover
+{
+    
+}
+.grid:hover
+{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+   
+}
+.grid
+{
+    display:grid;
+    grid-template-columns: 100px 100px;
+    cursor:pointer;
+}
+.about
+{
+    color:white;
+    width:600px;
+    margin-left: 100px;
+    font-size: 25px;
+    cursor:pointer;
+}
+.logo
+{
+    width:300px;
+    height:200px;
+    margin-left:800px;
+    cursor:pointer;
+    /*margin-bottom:0px;
+    margin-top: 0px;*/
+}
+.history,.reg-para,.contact
+{
+    color:white;
+    margin-left:100px;
+    margin-top: 50px;
+    font-size: 25px;
+    cursor:pointer;
+}
+.c
+{
+    width:200px;
+    height:200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.c:hover,.up:hover
+{
+    object-fit:cover;/*cover 200px by 200px area*/
+}
+.up
+{
+    width:300px;
+    height:200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+h4
+{
+    color: white;
+    font-size:30px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    margin-left: 400px;
+    font-weight: lighter;
+    cursor:pointer;
+}
+.invest
+{
+    height:50px;
+    width:50px;
+    margin-top: 25px;
+    margin-left:650px ;
+    cursor:pointer;
+}
+.invest:hover
+{
+    background-color: red;
+    cursor:pointer;
+}
+.learn-anything
+{
+    margin-left: 620px;
+    font-size:20px ;
+    color:white;
+    cursor:pointer;
+}
+.explore
+{
+    margin-left: 550px;
+    font-size: 20px;
+    color:white;
+    width:300px;
+    cursor:pointer;
+}
+.my-container
+{
+    color:white;
+    text-align: center;
+    cursor:pointer;
+}
+
